@@ -1,0 +1,172 @@
+body{
+	font-family: sans-serif, Verdana;
+}
+
+#container{
+	margin: 50px 100px 30px 100px;
+	width: 1260px;
+}
+
+
+body{
+	background-image: url(imgs/bg.jpg);
+}
+
+*{
+	color: gray;
+}
+
+#container{
+	background-color: #f4f4f4;
+}
+
+/*Заголовок*/
+header{
+	height: 100px;
+	width: 1400px;
+	text-align: center;
+	vertical-align: middle;
+	display:table-cell;
+	line-height: 0;
+	margin-bottom: 0;
+}
+
+/*Навигация*/
+nav{
+	height: 50px;
+}
+
+h1{
+	font-size: 40px;
+	font-family: 'Ariston Normal', sans-serif;
+}
+
+h6{
+	font-family: 'Ariston Normal', sans-serif;
+}
+
+h2{
+	font-family: 'Proxima Nova Regular', sans-serif;
+}
+
+.menu{
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: -10px;
+
+
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-left: none;
+	border-right: none;
+
+	text-align: center;
+	font-family: 'Georgia Italic', sans-serif;
+}
+
+
+.menu a{
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 2;
+	margin-left: 25px;
+}
+
+.menu li{
+	display: inline;
+}
+
+/*Основная часть страницы*/
+main{
+	display: flex;
+}
+
+/*Боковая панель*/
+aside{
+	border: 1px solid gray;
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 300px;
+	height: 550px;
+	display: inline-block;
+	line-height: 2;
+}
+
+aside>ul
+{
+	list-style-type: none;
+	margin-left: -15px;
+}
+
+aside ul>li{
+	border-bottom: 1px solid gray;
+	margin-right: 25px;
+}
+
+aside>img{
+	margin-left: 4px;
+}
+
+
+aside ul li>a{
+	list-style-type: none;
+	text-decoration: none;
+	color: red;
+}
+
+.side{
+	font-family: 'Proxima Nova Semibold', sans-serif;
+}
+
+/*Основной контент*/
+article{
+	margin-left: 20px;
+	width: 900px;
+	height: 600px;
+	display: inline-block;
+	font-family: 'Proxima Nova Regular', sans-serif;;
+}
+
+article>h2{
+	margin-top: 0;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid gray;
+	line-height: 2;
+
+
+}
+
+article>img{
+	height: 350px;
+	width: 886px;
+	border: 7px solid lightgray;
+}
+
+/*Полоска перехода*/
+.repeat{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	height: 7px;
+	background-image: url(imgs/background_line.png);
+}
+
+#content_underline{
+	margin-left: 300px;
+}
+footer{
+	margin-top: 30px;
+	height: 50px;
+	text-align: center;
+
+	font-family: 'Proxima Nova Regular Italic', sans-serif;
+}
+
+footer>a{
+	color: Blue;
+}
+
